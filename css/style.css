@@ -1,0 +1,198 @@
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+
+
+        /* layout 왼쪽부분 */
+        /* 사이드전체해당 */
+        aside {
+            float: left;
+            width: 15%;
+
+        }
+
+        
+
+        /* headnav부분 */
+        .headnav {
+            background-color: black;
+        }
+
+        .headnav a {
+            width: 31.7%;
+            display: inline-block;
+            padding: 10px 25px;
+            text-align: center;
+        }
+
+        .headnav a:hover {
+            background-color: lightgray;
+            
+
+        }
+        .headnav a:hover span {
+            color: black;
+            
+
+        }
+
+
+        .fa {
+            color: white;
+
+        }
+        
+
+
+        /* 로고부분 */
+        .logosection img {
+            width: 75%;
+            padding: 10px 10px;
+            display: block;
+
+        }
+
+        .logosection {
+            border-bottom: 1px solid lightgray;
+        }
+        .logosection:hover {
+            background-color: lightgray;
+        }
+
+        /* sidenav 부분 */
+
+        .sidenav a {
+            text-decoration: none;
+            color: black;
+        }
+        .sidenav li {
+            list-style-type: none;
+            padding: 5px 10px;
+        }
+
+        .sidenav li:hover {
+            background-color: lightgray;
+        }
+
+        /* layout 오른쪽 부분 */
+        article {
+            float: left;
+            width: 85%;
+            height: 100%;
+
+        }
+
+        main::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        /* top 부분 */
+        .top {
+            background-color: cadetblue;
+        }
+
+        .top p {
+            text-align: center;
+            font-size: 2.5em;
+            color: white;
+            padding: 70px 0;
+        }
+
+        /* middle 부분 */
+        /* 컨텐츠 */
+        .contents {
+            background-color: lightgray;
+            margin: 10px 0;
+            
+        }
+
+        .contentsbox {
+            padding: 0 20px;
+            
+        }
+
+        .contents h1 {
+            padding: 30px 0;
+            font-size: 3em;
+            font-weight: 500;
+
+        }
+
+        .contents h2 {
+            padding-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+
+        .contents button {
+            background-color: darkcyan;
+            border: none;
+            margin: 15px 0;
+            padding: 0;
+
+        }
+
+        .contents a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+
+        .contents a:hover {
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        .htmlbox {
+            background-color: white;
+        }
+
+        .htmlbox p .brown {
+            color: brown;
+        }
+
+        .htmlbox p .red {
+            color: red;
+        }
+
+        .htmlbox p .blue {
+            color: blue;
+        }
+
+        .htmlbox .bar {
+            float: left;
+            width: 3px;
+            height: 200px;
+
+            background-color: green;
+
+        }
+
+        .htmlbox .code {
+            float: left;
+            padding: 10px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .htmlbox::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .footerbox {
+            padding: 20px;
+            background-color: lightgray;
+        }
+        .footerbox a {
+            color: gray;
+            font-size: 14px;
+
+        }
+    
